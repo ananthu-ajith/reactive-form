@@ -1,0 +1,73 @@
+h1
+{
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 15px;
+}
+
+main
+{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    
+   .formborder
+   {
+    height: 90vh;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    align-items: center;
+    border-radius: 20px;
+
+    form
+    {
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 500px;
+
+        label
+        {
+            font-size: 16px;
+            font-weight: 550;
+        }
+        input
+        {
+            height: 30px;
+            border: 2px solid black;
+        }
+
+        div
+        {
+         
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        button
+        {
+            height: 35px;
+            width: 70px;
+            background-color: black;
+            color: white;
+            font-weight: 530;
+            border: 2px solid grey;
+            border-radius: 10px;
+            cursor: pointer;
+
+        }
+
+        button:active
+        {
+            background-color: #0056b3;        }
+        }
+    }
+
+   }
+   
+}
